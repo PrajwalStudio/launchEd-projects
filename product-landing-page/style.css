@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.buy-btn {
+  background-color: #00c896;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: #00b080;
+}
+
+main {
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.product-showcase img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #2c5364;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input[type="text"],
+form input[type="email"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.subscribe-btn {
+  background-color: #203a43;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.subscribe-btn:hover {
+  background-color: #2c5364;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
